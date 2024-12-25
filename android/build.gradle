@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"           // Latest build tools for Android 14
+        minSdkVersion = 23                     // Set the minimum SDK version
+        compileSdkVersion = 34                 // Compile with Android 14 (API level 34)
+        targetSdkVersion = 34                  // Target Android 14
+        ndkVersion = "26.1.10909125"           // Update the NDK version if necessary
+        kotlinVersion = "1.9.22"               // Latest Kotlin version
+        googlePlayServicesAuthVersion = "17.0.0" // Google Play Services Auth version
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.1'
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.3.15'
+           // Kotlin Gradle Plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    }
+    subprojects { subproject ->
+        if(project['name'] == 'react-native-reanimated'){
+            project.configurations { compile { } }
+        }
+}
+// for geocoder 
+subprojects {
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion rootProject.ext.compileSdkVersion
+                buildToolsVersion rootProject.ext.buildToolsVersion
+            }
+        }
+    }
+}
+}

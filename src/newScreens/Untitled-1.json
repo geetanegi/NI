@@ -1,0 +1,430 @@
+{
+    "navigation": {},
+    "route": {
+        "key": "editChecklist-ZHymYHn9v4aGnzgrbaGiw",
+        "name": "editChecklist",
+        "params": {
+            "item": {
+                "Response": {
+                    "CenterChecklistId": null,
+                    "StatusEnum": null,
+                    "CreatedBy": null,
+                    "CreatedOn": null,
+                    "UpdatedOn": null,
+                    "SubmittedOn": null
+                },
+                "Checklist": "FACILITY VISIT",
+                "CenterTypeId": 2,
+                "Color1": "rgba(252, 164, 29, 1)",
+                "Color2": "rgba(240, 195, 33, 0.63)",
+                "Enum": "FACILITYV",
+                "HasCategory": false,
+                "Order": 5,
+                "Color3": "rgba(210, 210, 210, 0.42)",
+                "CenterType": "FACILITY",
+                "CenterTypeDisplayName": "FACILITY Name",
+                "ChecklistId": 5,
+                "clientId": null,
+                "syncStatus": null,
+                "Groups": [
+                    {
+                        "Group": "FACILITYVISIT",
+                        "DisplayAsSection": false,
+                        "HasMultipleResponse": false,
+                        "MinResponsCount": null,
+                        "Order": 1,
+                        "Enum": "FACILITYVISIT_GROUP",
+                        "GroupId": 7,
+                        "Items": [
+                            {
+                                "Item": "Name of the facility",
+                                "Enum": "NAME_OF_THE_FACILITY",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 7,
+                                "Response2Type": null,
+                                "Order": 1,
+                                "QuestionForCenterName": true,
+                                "ResponseType": "FACILITY_NAME",
+                                "RenderType": "TEXTBOX",
+                                "ItemId": 145,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": []
+                            },
+                            {
+                                "Item": "Type of facility",
+                                "Enum": "TYPE_OF_FACILITY",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 8,
+                                "Response2Type": null,
+                                "Order": 2,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "FACILITY_TYPE",
+                                "RenderType": "ITEM",
+                                "ItemId": 146,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": [
+                                    {
+                                        "id": "SDH",
+                                        "text": "SDH",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "CHC",
+                                        "text": "CHC",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "PHC",
+                                        "text": "PHC",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "HWC-SC",
+                                        "text": "HWC-SC",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "HWC-PHC",
+                                        "text": "HWC-PHC",
+                                        "isChecked": false
+                                    }
+                                ]
+                            },
+                            {
+                                "Item": "No. of women delivered in last month",
+                                "Enum": "FACIL_NO_OF_WOMEN_DELIVERED_IN_LAST_MONTH",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 2,
+                                "Response2Type": null,
+                                "Order": 3,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "NUMBER",
+                                "RenderType": "TEXTBOX_NUMBER",
+                                "ItemId": 147,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": []
+                            },
+                            {
+                                "Item": "No of live births reported in the facility in the last month",
+                                "Enum": "FACIL_NO_OF_LIVE_BIRTHS_REPORTED_IN_THE_FACILITY_IN_THE_LAST_MONTH",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 2,
+                                "Response2Type": null,
+                                "Order": 4,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "NUMBER",
+                                "RenderType": "TEXTBOX_NUMBER",
+                                "ItemId": 148,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": []
+                            },
+                            {
+                                "Item": "No. of newborn breastfed within one hour of birth in last month",
+                                "Enum": "FACIL_NO_OF_NEWBORN_BREASTFED_WITHIN_ONE_HOUR_OF_BIRTH_IN_LAST_MONTH",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 2,
+                                "Response2Type": null,
+                                "Order": 5,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "NUMBER",
+                                "RenderType": "TEXTBOX_NUMBER",
+                                "ItemId": 149,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": []
+                            }
+                        ]
+                    },
+                    {
+                        "Group": "Interaction with beneficiaries",
+                        "DisplayAsSection": true,
+                        "HasMultipleResponse": true,
+                        "MinResponsCount": 5,
+                        "Order": 2,
+                        "Enum": "FACILITYVISIT_INTERATION_BENEFI",
+                        "GroupId": 8,
+                        "Items": [
+                            {
+                                "Item": "Did she initiated breastfeeding within one hour of birth",
+                                "Enum": "FACIL_BENE_DID_SHE_INITIATED_BREASTFEEDING_WITHIN_ONE_HOUR_OF_BIRTH",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 1,
+                                "Response2Type": null,
+                                "Order": 1,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "BOOLEAN",
+                                "RenderType": "ITEM",
+                                "ItemId": 150,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": [
+                                    {
+                                        "id": "Yes",
+                                        "text": "Yes",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "No",
+                                        "text": "No",
+                                        "isChecked": false
+                                    }
+                                ]
+                            },
+                            {
+                                "Item": "Did you give anything other than breastmilk",
+                                "Enum": "FACIL_BENE_DID_YOU_GIVE_ANYTHING_OTHER_THAN_BREASTMILK",
+                                "HasDependentChildItems": true,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 1,
+                                "Response2Type": null,
+                                "Order": 2,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "BOOLEAN",
+                                "RenderType": "ITEM",
+                                "ItemId": 151,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": [
+                                    {
+                                        "id": "Yes",
+                                        "text": "Yes",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "No",
+                                        "text": "No",
+                                        "isChecked": false
+                                    }
+                                ],
+                                "Items": [
+                                    {
+                                        "Item": "What did you give your new-born other than breastmilk? (Multiple response)",
+                                        "Enum": "FACIL_BENE_WHAT_DID_YOU_GIVE_YOUR_NEW_BORN_OTHER_THAN_BREASTMILK_MULTIPLE_RESPONSE",
+                                        "HasDependentChildItems": false,
+                                        "ParentDependentItemId": 151,
+                                        "IsMandatory": true,
+                                        "ResponseTypeId": 9,
+                                        "Response2Type": null,
+                                        "Order": 3,
+                                        "QuestionForCenterName": false,
+                                        "ResponseType": "FEEDING_OPTIONS",
+                                        "RenderType": "ITEM_MULTI_SELECT",
+                                        "ItemId": 152,
+                                        "IsShow": null,
+                                        "Response": {
+                                            "ItemResponseId": null,
+                                            "ItemResponseIndex": 0,
+                                            "Response": [],
+                                            "Response2": null,
+                                            "UpdatedBy": null,
+                                            "GeoTag_Lat": null,
+                                            "GeoTag_Long": null,
+                                            "ServerUpdatedOn": null
+                                        },
+                                        "Options": [
+                                            {
+                                                "id": "Water",
+                                                "text": "Water",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Cow Milk",
+                                                "text": "Cow Milk",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Formula Milk",
+                                                "text": "Formula Milk",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Medicines",
+                                                "text": "Medicines",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Honey",
+                                                "text": "Honey",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Gutti",
+                                                "text": "Gutti",
+                                                "isChecked": false
+                                            },
+                                            {
+                                                "id": "Others",
+                                                "text": "Others",
+                                                "isChecked": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Item": "Did beneficiary receive any kind of counselling through staff nurse/ ANM",
+                                "Enum": "FACIL_BENE_DID_BENEFICIARY_RECEIVE_ANY_KIND_OF_COUNSELLING_THROUGH_STAFF_NURSE_ANM",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 1,
+                                "Response2Type": null,
+                                "Order": 4,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "BOOLEAN",
+                                "RenderType": "ITEM",
+                                "ItemId": 153,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": [
+                                    {
+                                        "id": "Yes",
+                                        "text": "Yes",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "No",
+                                        "text": "No",
+                                        "isChecked": false
+                                    }
+                                ]
+                            },
+                            {
+                                "Item": "Is she currently breastfeeding",
+                                "Enum": "FACIL_BENE_IS_SHE_CURRENTLY_BREASTFEEDING",
+                                "HasDependentChildItems": false,
+                                "ParentDependentItemId": null,
+                                "IsMandatory": true,
+                                "ResponseTypeId": 1,
+                                "Response2Type": null,
+                                "Order": 5,
+                                "QuestionForCenterName": false,
+                                "ResponseType": "BOOLEAN",
+                                "RenderType": "ITEM",
+                                "ItemId": 154,
+                                "IsShow": null,
+                                "Response": {
+                                    "ItemResponseId": null,
+                                    "ItemResponseIndex": 0,
+                                    "Response": [],
+                                    "Response2": null,
+                                    "UpdatedBy": null,
+                                    "GeoTag_Lat": null,
+                                    "GeoTag_Long": null,
+                                    "ServerUpdatedOn": null
+                                },
+                                "Options": [
+                                    {
+                                        "id": "Yes",
+                                        "text": "Yes",
+                                        "isChecked": false
+                                    },
+                                    {
+                                        "id": "No",
+                                        "text": "No",
+                                        "isChecked": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "code1": "rgba(252, 164, 29, 1)",
+            "code2": "rgba(240, 195, 33, 0.63)",
+            "Checklist": "FACILITY VISIT",
+            "id": 5,
+            "clientID": null,
+            "edit": "auto"
+        }
+    }
+}
